@@ -6,7 +6,7 @@
  * Released under the MIT License.
  */
 
-require([
+define('gmaps', [
     'async',
     'jquery',
     'async!http://maps.google.com/maps/api/js?sensor=true'
