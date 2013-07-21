@@ -11,11 +11,6 @@ require([
     'jquery',
     'async!http://maps.google.com/maps/api/js?sensor=true'
 ], function(){
-
-    if (window.google == undefined && window.google.maps == undefined) {
-      throw 'Google Maps API is required. Please register the following JavaScript library http://maps.google.com/maps/api/js?sensor=true.'
-    }
-
     var extend_object = function(obj, new_obj) {
       var name;
 
